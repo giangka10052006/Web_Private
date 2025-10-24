@@ -1,0 +1,15 @@
+button {
+  padding: 0.5rem 1rem; /*Khoảng cách giữa nội dụng và viền nút*/
+  border-radius: 20px;/*Bo tròn góc nút*/
+  border: none;/*bỏ viền*/
+  transition: all 0.25s;/*Thêm hiệu ứng chuyển mượn trong 0.25s*/
+}
+
+.click {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  background-color: #bea4a4;
+}
