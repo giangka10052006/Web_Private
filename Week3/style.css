@@ -1,0 +1,120 @@
+* {
+	/* Xóa margin, padding và border mặc định */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+ul,
+ol {
+	list-style: none;
+}
+input,
+button,
+textarea,
+select {
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+}
+
+body {
+	height: 80vh;
+	background: linear-gradient(140deg, rgb(132, 244, 101), rgb(185, 246, 209));
+	font-family: "Arial", sans-serif;
+}
+
+.the {
+	width: 320px;
+	height: 400px;
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.15);
+	text-align: center;
+	padding: 40px 30px;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+	color: white;
+	margin: auto;
+	margin-top: 140px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.name {
+	color: red;
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.avatar {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 2px solid rgb(255, 255, 255);
+	margin: auto;
+	margin-bottom: 20px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job {
+	color: rgb(17, 0, 255);
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.introduce {
+	color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 30px;
+}
+
+.avatar:hover {
+	transform: scale(1.15);
+	box-shadow: 0 6px 10px rgb(255, 255, 255);
+}
+
+.the:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.Icon{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+a{
+  color: white;
+  margin: 12px;
+  background-color: rgba(255, 255, 255, 0.281);
+  border-radius: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  object-fit: cover;
+}
+a:hover{
+  color: rgb(53, 104, 74);
+  background-color: white;
+}
+
+.fa-facebook{
+  scale: 1.4;
+  padding: 13px;
+}
+.fa-linkedin-in{
+  scale: 1.4;
+  padding: 14px;
+}
+.fa-solid{
+  scale: 1.4;
+  padding: 13px;
+}
